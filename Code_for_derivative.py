@@ -7,6 +7,6 @@ def derivative(n: int, m: int):
     else:
         print(str(lower) + 'x' + str(upper))
     # Second Derivative
-    d2_dx = (lower*upper)
+    d2_dx = ('Second derivative: ' + str(lower*upper))
     print(d2_dx)
 derivative(3,3)
